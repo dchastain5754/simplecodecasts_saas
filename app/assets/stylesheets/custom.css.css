@@ -1,20 +1,15 @@
 /*
 Syntax error: File to import not found or unreadable: bootstrap-sprockets.
               Load path: /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets
-        on line 15 of /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets/application.css.scss
+        on line 1 of /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets/custom.css.scss
 
-10:  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
-11:  * file per style scope.
-12:  *
-13: *\/
-14: 
-15: @import "bootstrap-sprockets";
-16: @import "bootstrap";
-17: @import "font-awesome-sprockets";
-18: @import "font-awesome";
+1: @import "bootstrap-sprockets";
+2: @import "bootstrap";
+3: @import "font-awesome-sprockets";
+4: @import "font-awesome";
 
 Backtrace:
-/home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets/application.css.scss:15
+/home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets/custom.css.scss:1
 /usr/local/rvm/gems/ruby-2.3.4/gems/sass-3.2.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /usr/local/rvm/gems/ruby-2.3.4/gems/sass-3.2.19/lib/sass/tree/import_node.rb:45:in `import'
 /usr/local/rvm/gems/ruby-2.3.4/gems/sass-3.2.19/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -54,4 +49,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: bootstrap-sprockets.\A               Load path: /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets\A         on line 15 of /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets/application.css.scss\A \A 10:  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new\A 11:  * file per style scope.\A 12:  *\A 13: */\A 14: \A 15: @import \"bootstrap-sprockets\";\A 16: @import \"bootstrap\";\A 17: @import \"font-awesome-sprockets\";\A 18: @import \"font-awesome\";"; }
+  content: "Syntax error: File to import not found or unreadable: bootstrap-sprockets.\A               Load path: /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets\A         on line 1 of /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets/custom.css.scss\A \A 1: @import \"bootstrap-sprockets\";\A 2: @import \"bootstrap\";\A 3: @import \"font-awesome-sprockets\";\A 4: @import \"font-awesome\";"; }
