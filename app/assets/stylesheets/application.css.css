@@ -12,6 +12,8 @@ Syntax error: File to import not found or unreadable: bootstrap-sprockets.
 16: @import "bootstrap";
 17: @import "font-awesome-sprockets";
 18: @import "font-awesome";
+19: 
+20: .alert-notice {
 
 Backtrace:
 /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets/application.css.scss:15
@@ -54,4 +56,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: bootstrap-sprockets.\A               Load path: /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets\A         on line 15 of /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets/application.css.scss\A \A 10:  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new\A 11:  * file per style scope.\A 12:  *\A 13: */\A 14: \A 15: @import \"bootstrap-sprockets\";\A 16: @import \"bootstrap\";\A 17: @import \"font-awesome-sprockets\";\A 18: @import \"font-awesome\";"; }
+  content: "Syntax error: File to import not found or unreadable: bootstrap-sprockets.\A               Load path: /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets\A         on line 15 of /home/ubuntu/workspace/simplecodecasts_saas/app/assets/stylesheets/application.css.scss\A \A 10:  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new\A 11:  * file per style scope.\A 12:  *\A 13: */\A 14: \A 15: @import \"bootstrap-sprockets\";\A 16: @import \"bootstrap\";\A 17: @import \"font-awesome-sprockets\";\A 18: @import \"font-awesome\";\A 19: \A 20: .alert-notice {"; }
